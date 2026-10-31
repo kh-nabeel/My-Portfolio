@@ -45,17 +45,14 @@ const TOOL_ICONS: Record<string, ReactNode> = {
   ),
   Affinity: (
     <svg viewBox="0 0 128 128" style={{width:44,height:44}}>
-      <rect width="128" height="128" rx="28" fill="#222E50"/>
-      <path d="M64 18L18 110h92L64 18z" fill="none" stroke="#7BB7FF" strokeWidth="8"/>
-      <path d="M64 18L38 78h52L64 18z" fill="#7BB7FF" opacity="0.3"/>
-      <text x="50%" y="90" textAnchor="middle" fontSize="32" fontWeight="bold" fill="#7BB7FF" fontFamily="Arial">a</text>
+      <rect width="128" height="128" rx="22" fill="#1B72BE"/>
+      <path d="M64 18L24 96h18l8-17h28l8 17h18L64 18zm0 24l10 22H54L64 42z" fill="white"/>
     </svg>
   ),
   Canva: (
     <svg viewBox="0 0 128 128" style={{width:44,height:44}}>
-      <rect width="128" height="128" rx="28" fill="#7D2AE8"/>
-      <circle cx="64" cy="64" r="36" fill="none" stroke="white" strokeWidth="8"/>
-      <text x="50%" y="76" textAnchor="middle" fontSize="36" fontWeight="bold" fill="white" fontFamily="Arial">C</text>
+      <circle cx="64" cy="64" r="64" fill="#7D2AE8"/>
+      <path d="M80.4 44.8c-5.2-5.2-13-6.4-19.4-3C55.2 44.5 52 51 52.4 57.6c.2 3.4 1.6 6.8 4.4 9.6 5.2 5.2 13.4 6.4 19.8 2.8l-3.2-5.2c-4 2.4-9.4 1.6-12.8-1.8-2-2-3-4.6-3-7.2 0-2.8 1-5.4 3-7.4 3.4-3.4 8.8-4.2 13-2l2.6-1.6zM83 47.2l-2.6 1.6c1.4 2 2.2 4.4 2.2 6.8 0 6.8-5.6 12.4-12.4 12.4-.8 0-1.6-.1-2.4-.2l-3.2 5.2c1.8.4 3.6.6 5.6.6 10 0 18-8 18-18 0-3.4-1-6.6-2.6-9.2z" fill="white"/>
     </svg>
   ),
   Python: (
@@ -237,7 +234,7 @@ export default function Home() {
                   initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ duration:0.7, delay:0.4 }}
                   style={{ color:"#666", fontSize:"1rem", lineHeight:1.7, marginBottom:"2rem" }}
                 >
-                  Hey, I&apos;m <span style={{ color:"#F0EDE6", fontWeight:600 }}>Nabeel</span> — a 3rd-year CS student at NSS College of Engineering, Palakkad. I craft user-centric digital experiences where design meets code.
+                  Hey, I&apos;m <span style={{ color:"#F0EDE6", fontWeight:600 }}>Nabeel</span> — a 3rd-year CS student at NSS College of Engineering, Malappuram. I craft user-centric digital experiences where design meets code.
                 </motion.p>
                 <motion.div
                   initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ duration:0.7, delay:0.55 }}
@@ -396,7 +393,7 @@ export default function Home() {
                   Designer<br />who also<br /><span style={{ color:"#00E87A" }}>codes.</span>
                 </h2>
                 <p style={{ color:"#666", fontSize:"1.05rem", lineHeight:1.75, marginBottom:"1.5rem", maxWidth:"28rem" }}>
-                  I&apos;m a passionate 3rd-year B.Tech CS student at NSS College of Engineering, Palakkad. With 2+ years of hands-on experience, I bridge the gap between beautiful UI and clean code.
+                  I&apos;m a passionate 3rd-year B.Tech CS student at NSS College of Engineering, Malappuram. With 2+ years of hands-on experience, I bridge the gap between beautiful UI and clean code.
                 </p>
                 <p style={{ color:"#555", lineHeight:1.75, marginBottom:"2.5rem", maxWidth:"28rem" }}>
                   Active in TinkerHub, ISTE, STACS &amp; IEDC — constantly exploring, building, and pushing creative boundaries.

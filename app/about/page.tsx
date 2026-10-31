@@ -21,15 +21,14 @@ const SKILL_ICONS: Record<string, ReactNode> = {
   ),
   "Affinity Designer": (
     <svg viewBox="0 0 128 128" style={{ width: 20, height: 20, flexShrink: 0 }}>
-      <rect width="128" height="128" rx="28" fill="#222E50" />
-      <path d="M64 18L18 110h92L64 18z" fill="none" stroke="#7BB7FF" strokeWidth="8" />
-      <text x="50%" y="90" textAnchor="middle" fontSize="32" fontWeight="bold" fill="#7BB7FF" fontFamily="Arial">a</text>
+      <rect width="128" height="128" rx="22" fill="#1B72BE" />
+      <path d="M64 18L24 96h18l8-17h28l8 17h18L64 18zm0 24l10 22H54L64 42z" fill="white" />
     </svg>
   ),
   Canva: (
     <svg viewBox="0 0 128 128" style={{ width: 20, height: 20, flexShrink: 0 }}>
-      <rect width="128" height="128" rx="28" fill="#7D2AE8" />
-      <text x="50%" y="76" textAnchor="middle" fontSize="36" fontWeight="bold" fill="white" fontFamily="Arial">C</text>
+      <circle cx="64" cy="64" r="64" fill="#7D2AE8" />
+      <path d="M80.4 44.8c-5.2-5.2-13-6.4-19.4-3C55.2 44.5 52 51 52.4 57.6c.2 3.4 1.6 6.8 4.4 9.6 5.2 5.2 13.4 6.4 19.8 2.8l-3.2-5.2c-4 2.4-9.4 1.6-12.8-1.8-2-2-3-4.6-3-7.2 0-2.8 1-5.4 3-7.4 3.4-3.4 8.8-4.2 13-2l2.6-1.6h.2zM83 47.2l-2.6 1.6c1.4 2 2.2 4.4 2.2 6.8 0 6.8-5.6 12.4-12.4 12.4-.8 0-1.6-.1-2.4-.2l-3.2 5.2c1.8.4 3.6.6 5.6.6 10 0 18-8 18-18 0-3.4-1-6.6-2.6-9.2l-2.6 1.6v-.8z" fill="white" />
     </svg>
   ),
   Wireframing: (
@@ -88,7 +87,10 @@ const SKILL_ICONS: Record<string, ReactNode> = {
   MySQL: (
     <svg viewBox="0 0 128 128" style={{ width: 20, height: 20, flexShrink: 0 }}>
       <rect width="128" height="128" rx="20" fill="#00618A" />
-      <text x="10" y="76" fontFamily="Arial" fontWeight="bold" fontSize="28" fill="white">SQL</text>
+      {/* MySQL official wordmark style */}
+      <path d="M20 44c0-4.4 3.6-8 8-8h8c4.4 0 8 3.6 8 8v8H20v-8zm0 8h24v8c0 4.4-3.6 8-8 8h-8c-4.4 0-8-3.6-8-8v-8z" fill="#F29111" />
+      <path d="M72 36h8c4.4 0 8 3.6 8 8v24c0 4.4-3.6 8-8 8h-8c-4.4 0-8-3.6-8-8V44c0-4.4 3.6-8 8-8z" fill="none" stroke="#F29111" strokeWidth="4" />
+      <text x="16" y="102" fontFamily="Arial" fontWeight="900" fontSize="22" fill="white">MySQL</text>
     </svg>
   ),
   GitHub: (

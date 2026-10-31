@@ -7,7 +7,7 @@ import Cursor from "@/components/Cursor";
 export const metadata: Metadata = {
   title: "K H Nabeel | UI/UX Designer & Frontend Developer",
   description:
-    "Portfolio of K H Nabeel — UI/UX Designer and Frontend Developer. 3rd year B.Tech CS student at NSS College of Engineering, Palakkad.",
+    "Portfolio of K H Nabeel — UI/UX Designer and Frontend Developer. 3rd year B.Tech CS student at NSS College of Engineering, Malappuram.",
   keywords: ["UI/UX Designer", "Frontend Developer", "Nabeel", "K H Nabeel", "Figma", "Kerala"],
   authors: [{ name: "K H Nabeel" }],
   openGraph: {

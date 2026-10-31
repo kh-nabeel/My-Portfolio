@@ -103,7 +103,7 @@ export default function ExperiencePage() {
               <p style={{ color:"#00E87A", fontWeight:600, marginBottom:"0.75rem" }}>{siteData.college}</p>
               <div style={{ display:"flex", flexWrap:"wrap", gap:"1.25rem" }}>
                 <span style={{ fontSize:"0.875rem", color:"#666", display:"flex", alignItems:"center", gap:"0.35rem" }}><Calendar size={13} color="#555" /> {siteData.year}</span>
-                <span style={{ fontSize:"0.875rem", color:"#666", display:"flex", alignItems:"center", gap:"0.35rem" }}><MapPin size={13} color="#555" /> Palakkad, Kerala</span>
+                <span style={{ fontSize:"0.875rem", color:"#666", display:"flex", alignItems:"center", gap:"0.35rem" }}><MapPin size={13} color="#555" /> Malappuram, Kerala</span>
               </div>
             </div>
             <div style={{ display:"flex", flexWrap:"wrap", gap:"0.5rem" }}>
